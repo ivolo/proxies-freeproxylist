@@ -1,0 +1,19 @@
+{
+  "name": "proxies-freeproxylist",
+  "version": "1.0.0",
+  "repository": "git://github.com/ivolo/proxies-freeproxylist.git",
+  "description": "A proxies scraper for freeproxylist.com",
+  "keywords": [
+    "public",
+    "proxies",
+    "source",
+    "freeproxylist",
+    "scraper"
+  ],
+  "dependencies": {
+    "scraper": "git://github.com/ivolo/scraper"
+  },
+  "devDependencies": {
+    "mocha": "~1.15.1"
+  }
+}
