@@ -1,4 +1,3 @@
-
 /**
  * Expose the `scrape`.
  */
@@ -15,7 +14,7 @@ function scrape (scraper) {
   return function (callback) {
     scraper.readyPage('http://free-proxy-list.net/', function (err, page) {
       if (err) {
-        page.close();
+        if(page) page.close();
         callback(err);
       } else {
         parseList(page, function (err, proxies) {
